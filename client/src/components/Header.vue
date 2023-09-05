@@ -7,6 +7,7 @@ const navUl = ref<HTMLUListElement | null>(null)
 const authenticated = ref(window.localStorage.getItem("authenticated"))
 
 const availableRoutes = router.getRoutes().filter(route => {
+	if(route.name === "404 Page") return
 	if(authenticated.value === "true") return route
 	else {
 		if(route.name === "Login") {

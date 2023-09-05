@@ -1,6 +1,6 @@
 <center>
 <img style="border-radius:30px; width:150px;" src="./client/src/assets/img/chopper.jpeg"><br>
-<img src="https://img.shields.io/badge/Client_Version-1.0.0-darkgreen">
+<img src="https://img.shields.io/badge/Client_Version-1.0.1-darkgreen">
 <img src="https://img.shields.io/badge/Server_Version-1.0.0-darkgreen">
 
 # ChopperDebts
