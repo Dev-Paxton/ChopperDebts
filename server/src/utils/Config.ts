@@ -1,7 +1,7 @@
 import { databaseSettings, loggerSettings, serverSettings, userSettings } from "../types/config"
 import fs from "fs"
 
-const configDirPath = __dirname + "../../../config"
+const configDirPath = __dirname + "/../../config"
 
 export default class Config {
     static env: string
